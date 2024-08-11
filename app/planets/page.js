@@ -33,11 +33,11 @@ export default function App() {
           <Image src={Tatooine} alt="star wars poster" className="m-auto" />
           <h1 className="text-xl font-bold mb-2 text-center">{planet.name}</h1>
 
-          <p className="text-white mb-1 text-center">
+          <p className="text-gray-800 mb-1 text-center">
             Climate: {planet.climate}
           </p>
 
-          <p className="text-white text-center">
+          <p className="text-gray-800 text-center">
             Population: {planet.population}
           </p>
         </div>

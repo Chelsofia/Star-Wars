@@ -37,13 +37,13 @@ export default function App() {
           <h1 className="text-xl font-bold text-center mb-2 text-white">
             {person.name}
           </h1>
-          <p className="text-white text-center mb-2">
+          <p className="text-gray-800 text-center mb-2">
             Birth Year: {person.birth_year}
           </p>
-          <h3 className="text-white text-center mb-2">
+          <h3 className="text-gray-800 text-center mb-2">
             Gender: {person.gender}
           </h3>
-          <h2 className="text-white text-center">Species: {person.species}</h2>
+          <h2 className="text-gray-800 text-center">Species: {person.species}</h2>
         </div>
       </Link>
     );
