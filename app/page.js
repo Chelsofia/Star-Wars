@@ -1,14 +1,13 @@
 import Image from "next/image";
 import logo from "../public/images/gray.jpeg";
 
-
 export default function Home() {
   return (
     <main className="p-4">
       <section>
         <div className="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-8 mt-10">
           <Image
-            alt="Star Wars"
+            alt="Star Wars" // Ensure alt text is descriptive and meaningful
             src={logo}
             placeholder="blur"
             quality={100}
@@ -21,7 +20,7 @@ export default function Home() {
               and its powerful leader, Darth Vader. With the help of wise Jedi
               Master Obi-Wan Kenobi, cocky pilot Han Solo, and feisty Princess
               Leia, Luke embarks on a thrilling adventure to destroy the
-              Empire's deadliest weapon, the Death Star, and claim his destiny
+              deadliest weapon, the Death Star, and claim his destiny
               as a legendary Jedi Knight.
             </p>
           </div>

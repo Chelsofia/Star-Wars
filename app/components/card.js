@@ -1,5 +1,5 @@
 import Image from "next/image";
-import STARS from "../../public/images/STARS.png"
+import STARS from "../../public/images/STARS.png";
 export default function Card(props) {
 
   return (

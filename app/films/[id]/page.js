@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
-import STARS from "../../../public/images/STARS.png"
+
+import STARS from "../../../public/images/STARS.png";
 async function collectMovie(episode_id) {
   const res = await fetch(`https://swapi.dev/api/films/${episode_id}`);
   return res.json();
