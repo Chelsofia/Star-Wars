@@ -34,7 +34,7 @@ export default function App() {
             alt="Star Wars poster"
             className="w-32 h-32 object-cover mb-4"
           />
-          <h1 className="text-xl font-bold text-center mb-2 text-white">
+          <h1 className="text-xl font-bold text-center mb-2 text-gray-950">
             {person.name}
           </h1>
           <p className="text-gray-800 text-center mb-2">
